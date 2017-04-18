@@ -1,0 +1,84 @@
+/* colors 
+blue:  #3D617C;
+peach: #FCF2D1;
+brown: #82463A;
+green: #DADD99;
+gold:  #F7BC0C;
+*/
+
+body {
+  text-align: center;
+  background-color:#3D617C;
+  color:#82463A;
+}
+/* timer */
+.box {
+  margin-top: 30px;
+  text-align: center;
+  width: 300px;
+  background-color: #DADD99;
+  height: 300px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#fill {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+#timer {
+  line-height: 300px;
+  vertical-align: middle;
+  font-size: 100px;
+  
+}
+/* left and right container*/
+.unit {
+  margin:20px 20px 0px;
+  display:inline-block;
+  background-color: #DADD99;
+  padding-top:10px;
+  padding-bottom:55px;
+  
+}
+.left,
+.right {
+  width:150px;
+  height:60px;
+  border-radius:25px;
+}
+/* buttons */
+.operator {
+  display:inline;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #FCF2D1;
+  color:#3D617C;
+  margin-top:3px;
+}
+
+.value {
+  display:inline;
+  padding-top:5px;
+  font-size: 20px;
+  margin:0px 5px;
+
+}
+/* start and stop*/
+.go {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: -30px;
+  background-color:#FCF2D1;
+  border-radius:5px;
+  color:#3D617C;
+}
+button:hover{
+background-color:#3D617C;
+}
+button:focus{
+  outline:0 !important;
+  background-color:#F7BC0C;
+}
