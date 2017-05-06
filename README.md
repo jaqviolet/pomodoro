@@ -1,4 +1,4 @@
-# pomodoro
+# Pomodoro Clock
 
 basic front end pomodoro clock built with bootstrap and jquery
 
