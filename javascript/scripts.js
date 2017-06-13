@@ -53,7 +53,7 @@ $('.go').click(function() {
     bMin= bClock;
      filler = 100 / (min * 60);
    bFiller= 100 / (bMin * 60);
-    pomTimer = setInterval(myTimer, 100);
+    pomTimer = setInterval(myTimer, 1000);
   } 
   else if (countDown == true) {
     if (pomRunning == true) {
@@ -107,7 +107,7 @@ function myTimer() {
     clearInterval(pomTimer);
     pomRunning = false;
    
-    myBreak = setInterval(breakTimer, 100);
+    myBreak = setInterval(breakTimer, 1000);
     accumulator=100;
   };
 
