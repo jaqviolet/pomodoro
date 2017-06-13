@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-var clock = 25;
+var clock = 5;
 var sec = 0;
 var min = 1;
 
@@ -8,7 +8,7 @@ var pomTimer;
 var filler = 100 / (min * 60);
 var bFiller= 100 / (bMin * 60);
 
-var bClock = 5;
+var bClock = 1;
 var bSec = 0;
 var bMin = 01;
 var myBreak;
